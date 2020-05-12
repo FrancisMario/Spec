@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="borderpane" prefHeight="454.0" prefWidth="846.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <left>
+      <VBox prefHeight="454.0" prefWidth="213.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="Join" onAction="#launchJoinForm" onMousePressed="#launchJoinForm" prefHeight="77.0" prefWidth="213.0" text="Join" />
+            <JFXButton fx:id="Host" onAction="#launchHostLogin" onMousePressed="#launchHostLogin" prefHeight="77.0" prefWidth="213.0" text="Host" />
+            <JFXButton fx:id="Schedule" onAction="#launchScheduleForm" onMouseMoved="#launchScheduleForm" prefHeight="77.0" prefWidth="213.0" text="Schedule" />
+            <JFXButton fx:id="Study_group" onMousePressed="#launchJoinForm" prefHeight="77.0" prefWidth="213.0" text="Study Group" />
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

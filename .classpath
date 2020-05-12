@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-13.0.1">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFx"/>
+	<classpathentry kind="lib" path="C:/Users/PC/Downloads/webcam-capture-0.3.13-20200330.202351-7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC/Downloads/slf4j-simple-2.0.0-alpha1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PC/Downloads/slf4j-api-2.0.0-alpha1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

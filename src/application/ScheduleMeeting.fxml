@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane prefHeight="441.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXTextField alignment="CENTER" labelFloat="true" layoutX="66.0" layoutY="60.0" prefHeight="50.0" prefWidth="289.0" promptText="Meeting Title">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField alignment="CENTER" labelFloat="true" layoutX="66.0" layoutY="117.0" prefHeight="53.0" prefWidth="290.0" promptText="Authorization Code">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXTextField>
+            <JFXDatePicker editable="false" layoutX="65.0" layoutY="251.0" prefHeight="48.0" prefWidth="137.0" promptText="Meeting date" showWeekNumbers="true">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXDatePicker>
+            <JFXTimePicker layoutX="211.0" layoutY="257.0" prefHeight="42.0" prefWidth="149.0" promptText="Meeting Time">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXTimePicker>
+            <JFXButton layoutX="97.0" layoutY="325.0" prefHeight="70.0" prefWidth="210.0" text="Schedule" />
+            <JFXComboBox editable="true" labelFloat="true" layoutX="64.0" layoutY="197.0" prefHeight="48.0" prefWidth="294.0" promptText="Meeting Duration" viewOrder="1.0">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXComboBox>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
